@@ -6,6 +6,6 @@ job('DSL-Tutorial-1-Test') {
         scm('H/15 * * * *')
     }
     steps {
-        maven('-e clean test')
+        maven('-e clean compile test')
     }
 }
