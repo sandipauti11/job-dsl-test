@@ -1,6 +1,6 @@
 job('DSL-Tutorial-1-Test') {
     scm {
-        git('https://github.com/sandipauti11/job-dsl-test.git')
+        https://github.com/sandipauti11/HelloWorld.git
     }
     triggers {
         scm('H/15 * * * *')
